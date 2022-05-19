@@ -1,0 +1,42 @@
+.container8{
+	display: block;
+	background-color: #3B3B3B;
+	margin-top:14vh;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	padding:2vh 1vw 2vh 1vw;
+	border-radius: 25px;
+	border: 0.2vw red solid;
+}
+.container8 a:first-child{
+	border-radius: 20px 20px 0 0;
+}
+.container8 a{
+	border-bottom: 0.1vh solid red;
+}
+.container8 a:last-child{
+	border-radius: 0 0 20px 20px;
+	border:none;
+}
+.container1{
+	background-image: radial-gradient(black, #181915, #3B3B3B,#3B3B3B,#3B3B3B,#3B3B3B);
+}
+.container2{
+	text-align: center;
+}
+.link1{
+	display: block;
+	color: #CB9973;
+	width: 100%;
+	background-color: #3B3B3B;
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	border-color: red;
+	transition-duration: 150ms;
+}
+.link1:hover, .link1:focus{
+	background-image: linear-gradient(to left,#3B3B3B, #181915,#3B3B3B);
+	color:red;
+	transition-duration: 150ms;
+}

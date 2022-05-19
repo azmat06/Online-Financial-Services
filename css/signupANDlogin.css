@@ -1,0 +1,107 @@
+.container1{
+	margin-top: 0.5vh;
+	padding: 3vh 0 0 0;
+	border: 3px solid red;
+	border-radius: 25px;
+	background-color: #3B3B3B;
+	font-family: serif;
+	font-variant: small-caps;
+	font-size: 2vh;
+	line-height: 3vh;
+	color: #FF0000;
+	height: 90vh;
+}
+.container2{
+	padding-top: 2vh;
+	/*padding-left: 15vh;
+*/	border-bottom: 3px ridge red;
+}
+.container3{
+	padding-left: 8vh;
+	padding-right: 8vh;
+}
+.container4{
+	overflow: auto;
+}
+.container5{
+	padding-top: 2vh;
+	padding-left: 48%;
+	border-bottom: 3px ridge red;
+}
+.container6{
+	display: inline-block;
+	width: 43%;
+	border:0.3vw red;
+	padding: 0.5vh 0.25vw 0.5vh 0.25vw;
+	margin: 0.5vw 0 0.5vw 3%;
+	border-radius: 25px;
+	border-style: double;
+	text-align: center;
+	transition-duration: 500ms;
+	overflow: hidden;
+	/*padding-top: 33vh;
+	padding-bottom: 33vh;*/
+}
+
+/*Direct Styling is involved-> login.php*/
+.container6 a{
+	color: #CB996A;
+	display: block;
+	width: 100%;
+	height: 20vh;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	border-radius: 25px;
+	transition-duration: 1000ms;
+}
+/*Direct Styling is involved-> login.php*/
+.container6 i{
+	display: block;
+}
+
+.container6 a:hover, .container6 a:focus{
+	color: red;
+	background-image: radial-gradient(black, #181915, #3B3B3B,#3B3B3B);
+	transition-duration: 1000ms;
+}
+.container6:hover, .container6:focus{
+	border-style: solid;
+	box-shadow: 5px 5px 15px red, -5px -5px 10px red;
+	transition-duration: 500ms;
+}
+.container7{
+	display: block;
+	width:45%;
+	height:40%;
+	border-radius: 35px;
+	border: 5px double red;
+	margin-left:18vw;
+	margin-top: 18vh;
+	text-align: center;
+	/*box-shadow: 5px 5px 10px red, -5px -5px 10px red;*/
+}
+.container7 span{
+	display: block;
+	width:100%;
+	margin-bottom: 6vh;
+	margin-top: 1vh;
+	border-bottom: 3px red solid;
+	/*color:#CB9973;*/
+
+}
+.container7 form{
+	/*color:#CB9973;
+	font-variant: normal;*/
+}
+.container7 .button1{
+	margin-top: 1vh;
+}
+.container7 form i{
+	position: absolute;
+	padding-top: 1.5vh;
+}
+.container7 .tbox{
+	padding-left: 2vw;
+	display: inline block;
+	margin-bottom: 1.5vh;
+}

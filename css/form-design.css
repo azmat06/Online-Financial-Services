@@ -1,0 +1,27 @@
+.form-style {
+	font-family: sans-serif;
+}
+.form-style input.tbox{
+	/*width: 80%;
+	display: block;
+	border: none;
+	margin-bottom: 3px;
+	margin-top: 3px;*/
+	background: #EFEFE8;
+	border-radius: 20px;
+	outline: none;
+	height: 4vh;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	transition-duration: 500ms;
+
+}
+.form-style fieldset{
+	border-radius: 10px;
+	outline: none;
+}
+.form-style input.tbox:focus{
+	border-bottom-color: red;
+	border-right-color: red;
+	transition-duration: 500ms;
+}

@@ -1,0 +1,50 @@
+.container2{
+	text-align: center;
+}
+.tbox{
+	font-size: 0.8rem;
+	margin-bottom: 1vh;
+	padding-left: 1rem;
+}
+.container3 fieldset{
+	padding-top: 4vh;
+	padding-left: 2vw;
+}
+.row1{
+	width:41.75%;
+}
+.row2{
+	width:85.75%;
+}
+.row3{
+	margin-top: 3vh;
+	width: 32.5%;
+	margin-bottom: 5vh;
+}
+.row3merchant{
+	margin-top: 3vh;
+	width: 32.5%;
+	margin-bottom: 5vh;
+}
+.row4merchant{
+	width:79.5%;
+}
+.row3admin{
+	width: 82.5%;
+	margin-bottom: 5vh;
+}
+.row4{
+	width:36.5%;
+}
+.row5{
+	width:36.5%;
+}
+.row6{
+	width:30%;
+}
+.button1{
+	float:right;
+	margin-right: 2vw;
+	margin-top: 4vh;
+	margin-bottom: 1vh;
+}

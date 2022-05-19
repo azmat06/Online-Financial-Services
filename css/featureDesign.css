@@ -1,0 +1,33 @@
+.container1{
+	margin-top: 0.5vh;
+	padding: 3vh 0 0 0;
+	border: 3px solid red;
+	border-radius: 25px;
+	background-color: #3B3B3B;
+	font-family: serif;
+	font-variant: small-caps;
+	font-size: 2vh;
+	line-height: 3vh;
+	color: #FF0000;
+	height: 90vh;
+	overflow: auto;
+}
+.container2{
+	padding-top: 2vh;
+	text-align: center;
+	/*padding-left: 15vh;
+*/	border-bottom: 3px ridge red;
+}
+/*.container3{
+	padding-left: 8vh;
+	padding-right: 8vh;
+}*/
+.container4{
+	overflow: auto;
+}
+.container4 a{
+	color: orange;
+}
+.container4 table{
+	font-variant: normal;
+}
